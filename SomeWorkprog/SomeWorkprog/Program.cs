@@ -13,6 +13,10 @@ namespace SomeWorkprog
             Console.WriteLine("Enter word:");
             string str = Console.ReadLine();
             Console.WriteLine("Date added!");
+            if (Int32.Parse(str) > 0)
+	        {
+                Console.WriteLine("{0}",str);
+	        }
         }
     }
 }
